@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+<html lang="en-US" dir="ltr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>New WM Web Document</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="language" content="en-US" />
+<meta name="author" content="Waste Management" />
+<meta name="robots" content="index, follow" />
+<meta name="copyright" content="Copyright 2010" />
+<meta name="revisit-after" content="30 days">
+<meta name="rating" content="General" />
+<!--meta http-equiv="expires" content="" /-->
+
+<!--
+<base href="http://www.wm.com/" />
+<link rel="canonical" href="http://www.wm.com/" />
+<link rel="index" title="Waste Management" href="http://www.wm.com" />
+<link rel="previous" title="" href="/" />
+<link rel="next" title="" href="/" />
+<link rel="bookmark" title="Waste Management" href="http://www.wm.com" />
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+-->
+
+<!-- Presentation (framework) -->
+<link rel="stylesheet" media="all" href="_frameworks/960.gs/reset.css" />
+<link rel="stylesheet" media="all" href="_frameworks/960.gs/text.css" />
+<link rel="stylesheet" media="all" href="_frameworks/960.gs/960.css" />
+
+<!-- Presentation (homebrew) -->
+<link rel="stylesheet" type="text/css" media="all" href="_css/global.css" />
+<!-- [if IE 6]><link rel="stylesheet" type="text/css" media="all" href="_css/ie6.css" /><![endif]-->
+<!-- [if IE 7]><link rel="stylesheet" type="text/css" media="all" href="_css/ie7.css" /><![endif]-->
+<!-- [if IE 8]><link rel="stylesheet" type="text/css" media="all" href="_css/ie8.css" /><![endif]-->
+
+<!-- Presentation (diagnostics) -->
+<!--link rel="stylesheet" type="text/css" media="all" href="_css/diagnostics.css" /-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="all" href="_css/diagnostics-ie7.css" /><![endif]-->
+
+</head>
+<body class="www.wm.com website public-website test-section test-page browser-name browser-version -showgrid_16">
+	
+<!-- ******* Wrapper ******* -->
+
+<div id="main" class="container container_16 clearfix">
+
+<!-- ******* Header ******* -->
+
+	<div id="header" class="header grid_16 clearfix">
+
+	<div id="site_logo-container" class="grid_6 alpha">
+		<div class="container-inner">
+			<a href="http://www.wm.com" id="site_logo" title="Waste Management"><img src="_images/temp_waste_managment_logo.gif" alt="Welcome to Waste Management" title="Waste Management" /></a>
+		</div>
+	</div><!-- Logo -->
+
+	<div id="site_quick_nav-container" class="grid_5">
+		<div class="container-inner">
+			<ul>
+				<li><a href="/jobs/" title="Jobs">Jobs</a></li>
+				<li class="active"><a href="/about-us/" title="About Us">About Us</a></li>
+				<li><a href="/contact-us/" title="Contact Us">Contact Us</a></li>
+				<li><a href="/sustainability/" title="Sustainability">Sustainability</a></li>
+			</ul>
+		</div>
+	</div><!-- Quick Nav -->
+
+	<div id="site_search-container" class="grid_5 omega">
+		<div class="container-inner">
+			<form id="site_search" action="" method="post" class="grid_">
+				<input id="q" name="q" type="text" class="text" value="Search..." />
+				<input type="submit" class="submit" value="Search" />
+			</form>
+		</div>
+	</div><!-- Search -->
+
+	</div><!-- .header -->
+
+<!-- ******* Navigation ******* -->
+
+	<div id="main_navigation" class="navigation grid_16 clearfix">
+	    <ul class="tier tier-1 clearfix">
+		<li class="first residential active branch">
+			<a href="/residential/" title="Residential">Residential</a>
+			<ul class="tier tier-2 clearfix">
+				<li class="first branch">
+					<a href="/residential/products-and-services/" title="Products and Services">Products and Services</a>
+					<div class="tier tier-3 clearfix">
+						<dl>
+							<dt><a href="/products-and-services/residential/curbside-pickup/">Curbside Pickup</a></dt>
+							<dd><p>Integer nulla est, cursus at fermentum id; sagittis quis eros? Donec elementum dapibus magna at cursus. <a href="/learn-more/" title="">Learn more &raquo;</a></p></dd>
+							<dt><a href="/products-and-services/residential/recycling/">Recycling</a></dt>
+							<dd><p>Integer nulla est, cursus at fermentum id; sagittis quis eros? Donec elementum dapibus magna at cursus.</p></dd>
+							<dt><a href="/products-and-services/residential/on-demand-disposal/">On-Demand Disposal</a></dt>
+							<dd><p>Integer nulla est, cursus at fermentum id; sagittis quis eros? Donec elementum dapibus magna at cursus.</p></dd>
+							<dt><a href="/products-and-services/residential/other-waste-solutions/">Other Waste Solutions</a></dt>
+							<dd><p>Integer nulla est, cursus at fermentum id; sagittis quis eros? Donec elementum dapibus magna at cursus.</p></dd>
+							<dt><a href="/products-and-services/residential/portable-storage/">Portable Storage</a></dt>
+							<dd><p>Integer nulla est, cursus at fermentum id; sagittis quis eros? Donec elementum dapibus magna at cursus.</p></dd>
+						</dl>
+					</div>
+				</li>
+				<li class="leaf">
+					<a href="/residential/sign-up-for-service/" title="Sign Up for Service">Sign Up for Service</a>
+					<div class="tier tier-3">
+						<h3>Sign up for service</h3>
+						<p>Sed porta <a href="/massa-convallis/" title="massa convallis">massa convallis</a> odio feugiat fermentum. Nam ut odio nec leo volutpat euismod a eu tellus. Sed dictum gravida urna sed tempus.</p>
+						<p><input type="text" value="Sign up now!" /></p>
+						<p><input type="submit" value="Sign up" /></p>
+					</div>
+				</li>
+				<li class="branch last">
+					<a href="/residential/customer-service/" title="Customer Service">Customer Service</a>
+					<ul class="tier tier-3 clearfix">
+						<li class="first leaf"><a title="Report a Problem" href="/customer-service/report-a-problem/">Report a Problem</a></li>
+						<li class="leaf"><a title="Frequently Asked Questions" href="/customer-service/frequently-asked-questions/">Frequently Asked Questions</a></li>
+						<li class="leaf last"><a title="Glossary" href="/customer-service/glossary/">Glossary</a></li>
+					</ul>
+				</li>
+				<li class="pay-my-bill branch last">
+					<a href="/residential/pay-my-bill/" title="Pay My Bill">Pay My Bill</a>
+					<ul class="tier tier-3 clearfix">
+						<li class="leaf first"><a title="Product 1" href="/pay-my-bill/product-1/">Overview</a></li>
+						<li class="leaf"><a title="Product 1" href="/pay-my-bill/product-1/">Log on to ezPay</a></li>
+						<li class="leaf"><a title="Product 1" href="/pay-my-bill/product-1/">Pay without sign-up</a></li>
+						<li class="leaf"><a title="Product 1" href="/pay-my-bill/product-1/">Other payment options</a></li>
+						<li class="leaf"><a title="Product 1" href="/pay-my-bill/product-1/">How to use ezPay</a></li>
+						<li class="leaf"><a title="Product 1" href="/pay-my-bill/product-1/">ezPay FAQ</a></li>
+						<li class="leaf last"><a title="Product 1" href="/pay-my-bill/product-1/">Sign Up for ezPay</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li class="small-business leaf"><a href="/small-business/" title="Small Business">Small Business</a></li>
+		<li class="last enterprise leaf"><a href="/enterprise/" title="Enterprise">Enterprise</a></li>
+	    </ul>
+	</div><!-- .navigation -->
+
+<!-- ******* Body ******* -->
+
+	<div class="layout-column layout-column-1 grid_3">
+
+		<div id="subnavigation" class="module subnavigation">
+			<ul class="tier tier-1">
+				<li class="first leaf active"><a href="" title="">Listing 1</a></li>
+				<li class="leaf"><a href="" title="">Listing 2</a></li>
+			</ul>
+		</div>
+
+		<div class="module">
+			<div class="module-header">...</div>
+			<div class="module-content">...</div>
+		</div>
+
+	</div><!-- .column-1 -->
+
+	<div class="layout-column layout-column-2 grid_13 omega">
+		
+	<div id="banner" class="banner grid_13 alpha clearfix">
+		<img src="http://dummyimage.com/760x200/000/fff.png" alt="" title="" />
+		<div class="banner-content">
+			<p>Banner...</p>
+		</div>
+	</div><!-- .banner -->
+
+	<div id="breadcrumb" class="breadcrumb grid_13 alpha clearfix">
+		<ul>
+			<li>Home</li>
+		</ul>
+	</div><!-- .breadcrumb -->
+
+	<div id="content" class="content grid_10 alpha clearfix">
+		<h1>Header prototype</h1>
+		<p>Above is a cross-browser (I hope; only tested in IE6, FF3.6.3, Opera, and Chrome), semantic header. I picked up the classing from Drupal. Branches have children, leaves do not. Not sure if the second tier will appear on the <strong>hover state</strong> of a first tier element, or whether it will appear only on the <strong>active state</strong> of a first tier element.</p>
+		<p>I'm fairly sure this prototype will explode in IE7/8.</p>
+		<h2>The design</h2>
+		<p>Right now this prototype is a rough approximation to the wireframes since I used the existing VML prototype as the basis for design. This prototype's purpose is to demonstrate a cross-browser, semantic navigation system within the 960.gs framework.</p>
+		<h2>The third tier</h2>
+		<p>The third tier isn't a proposal nor is it an assumption that the business requirements call for it. It's just a result of my curiosity.</p>
+
+		<h2>Second tier hover states in IE6</h2>
+		<p>Since we know the height of the second tier, we will easily be able to set the height of the hover image in Photoshop or whatever so that we can position the arrow. And since the widths of each of the second tier navigation elements aren't extremely different, we could find a "happy medium" or average width for the image to simulate center alignment. If that's too hokey, we could just switch out the PNG with a GIF.</p>
+		<h2>Services provided</h2>
+		<dl class="services-provided-list">
+			<dt class="name">Residential</dt>
+			<dd class="desc"><p>Morbi quis lobortis nisi. Fusce eu ultrices neque? Nunc massa nunc, congue id molestie id, mollis porttitor massa. Nulla convallis justo in metus interdum non vestibulum tellus molestie. Vestibulum quis justo et tortor tristique euismod at sed nunc. Maecenas feugiat adipiscing porttitor.</p></dd>
+			<dd class="components">
+				<ul>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+				</ul>
+			</dd>
+			<dd class="req"><a href="/"><img src="" alt="Request a Quote" title="" /></a></dd>
+			<dt class="name">Commercial</dt>
+			<dd class="desc"><p>Morbi quis lobortis nisi. Fusce eu ultrices neque? Nunc massa nunc, congue id molestie id, mollis porttitor massa. Nulla convallis justo in metus interdum non vestibulum tellus molestie. Vestibulum quis justo et tortor tristique euismod at sed nunc. Maecenas feugiat adipiscing porttitor.</p></dd>
+			<dd class="components">
+				<ul>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+				</ul>
+			</dd>
+			<dd class="req"><a href="/"><img src="" alt="Request a Quote" title="" /></a></dd>
+			<dt class="name">Industrial</dt>
+			<dd class="desc"><p>Morbi quis lobortis nisi. Fusce eu ultrices neque? Nunc massa nunc, congue id molestie id, mollis porttitor massa. Nulla convallis justo in metus interdum non vestibulum tellus molestie. Vestibulum quis justo et tortor tristique euismod at sed nunc. Maecenas feugiat adipiscing porttitor.</p></dd>
+			<dd class="components">
+				<ul>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+				</ul>
+			</dd>
+			<dd class="req"><a href="/"><img src="" alt="Request a Quote" title="" /></a></dd>
+			<dt class="name">Landfills</dt>
+			<dd class="desc"><p>Morbi quis lobortis nisi. Fusce eu ultrices neque? Nunc massa nunc, congue id molestie id, mollis porttitor massa. Nulla convallis justo in metus interdum non vestibulum tellus molestie. Vestibulum quis justo et tortor tristique euismod at sed nunc. Maecenas feugiat adipiscing porttitor.</p></dd>
+			<dd class="components">
+				<ul>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+					<li>Listing 1</li>
+				</ul>
+			</dd>
+			<dd class="req"><a href="/"><img src="" alt="Request a Quote" title="" /></a></dd>
+		</dl>
+	</div><!-- .content -->
+
+	<div id="rail" class="rail grid_3 omega clearfix">
+		<p>...</p>
+	</div><!-- .rail -->
+
+	</div><!-- .column-2 -->
+
+	
+
+</div><!-- .container -->
+
+<!-- ******* Featured ******* -->
+
+	<div id="featured">
+		<div class="container container_16 clearfix">
+			<div class="grid_16">
+				<h2>Featured promotions</h2>
+				<ul class="grid_16 alpha omega">
+					<li class="grid_4 module featured-module alpha">
+						<a href="" title="">
+							<img src="http://dummyimage.com/120x76/000/fff.png" alt="" title="" />
+							<h3>Bagster</h3>
+							<p>The Dumpster in a bag&reg; &raquo;</p>
+						</a>
+					</li>
+					<li class="grid_4 module featured-module">
+						<a href="" title="">
+							<img src="http://dummyimage.com/120x76/000/fff.png" alt="" title="" />
+							<h3>Bagster</h3>
+							<p>The Dumpster in a bag&reg; &raquo;</p>
+						</a>
+					</li>
+					<li class="grid_4 module featured-module">
+						<a href="" title="">
+							<img src="http://dummyimage.com/120x76/000/fff.png" alt="" title="" />
+							<h3>Bagster</h3>
+							<p>The Dumpster in a bag&reg; &raquo;</p>
+						</a>
+					</li>
+					<li class="grid_4 module featured-module omega">
+						<a href="" title="">
+							<img src="http://dummyimage.com/120x76/000/fff.png" alt="" title="" />
+							<h3>Bagster</h3>
+							<p>The Dumpster in a bag&reg; &raquo;</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- #featured -->
+
+<!-- ******* Footer ******* -->
+
+	<div id="footer">
+		<div class="container container_16 clearfix">
+			<div class="grid_16">
+				<ul class="grid_3 alpha">
+					<li><a href="/site-map/"><strong>Site Map</strong></a></li>
+					<li><a href="/sign-up-for-service/"><strong>Sign Up for Service</strong></a></li>
+					<li><a href="/customer-service/"><strong>Customer Service</strong></a></li>
+					<li><a href="/customer-service/report-a-problem/">Report a Problem</a></li>
+					<li><a href="/customer-service/frequently-asked-questions/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="/customer-service/glossary/">Glossary</a></li>
+					<li><a href="/pay-my-bill/"><strong>Pay My Bill</strong></a></li>
+				</ul>
+				<div id="products-and-services" class="grid_6 suffix_1">
+					<h2><a href="/products-and-services/" title="">Products &amp; Services</a></h2>
+					<div class="grid_2 alpha">
+						<ul>
+							<li><a href="/products-and-services/residential/"><strong>Residential</strong></a></li>
+							<li><a href="/products-and-services/residential/curbside-pickup/">Curbside Pickup</a></li>
+							<li><a href="/products-and-services/residential/recycling/">Recycling</a></li>	
+							<li><a href="/products-and-services/residential/on-demand-disposal/">On-demand Disposal</a></li>	
+							<li><a href="/products-and-services/residential/other-waste-solutions/">Other Waste Solutions</a></li>	
+							<li><a href="/products-and-services/residential/portable-storage/">Portable Storage</a></li>
+						</ul>
+					</div>
+					<div class="grid_2">
+						<ul>
+							<li><a href="/products-and-services/small-business/"><strong>Small Business</strong></a></li>
+							<li><a href="/products-and-services/small-business/commercial-pickup/">Commercial Pickup</a></li>	
+							<li><a href="/products-and-services/small-business/recycling/">Recycling</a></li>
+							<li><a href="/products-and-services/small-business/on-demand-disposal/">On-demand Disposal</a></li>	
+							<li><a href="/products-and-services/small-business/other-waste-solutions/">Other Waste Solutions</a></li>
+							<li><a href="/products-and-services/small-business/construction/">Construction</a></li>	
+							<li><a href="/listing-all/">View All &raquo;</a></li>
+						</ul>
+					</div>
+					<div class="grid_2 omega">
+						<ul>
+							<li><a href="/products-and-services/enterprise/"><strong>Enterprise</strong></a></li>
+							<li><a href="/products-and-services/enterprise/construction/">Construction</a></li>
+							<li><a href="/products-and-services/enterprise/health-care/">Health Care</a></li>
+							<li><a href="/products-and-services/enterprise/manufacturing-and-industrial/">Manufacturing and Industrial</a></li>
+							<li><a href="/products-and-services/enterprise/food-and-retail/">Food and Retail</a></li>
+							<li><a href="/products-and-services/enterprise/commercial-property/">Commercial Property</a></li>
+							<li><a href="/listing-all/">View All &raquo;</a></li>
+						</ul>
+					</div>
+					<div class="view-all"><a href="/products-and-services/">View all Products &amp; Services &raquo;</a></div>
+				</div>
+				<ul class="grid_2">
+					<li><a href="/contact-us/"><strong>Contact Us</strong></a></li>
+					<li><a href="/about-us/"><strong>About Us</strong></a></li>	
+					<li><a href="/about-us/company-profile/">Company Profile</a></li>	
+					<li><a href="/about-us/awards/">Awards</a></li>	
+					<li><a href="/about-us/aquisitions-and-divestitures/">Aquisitions and Divestitures</a></li>	
+					<li><a href="/about-us/corporate-governance/">Corporate Governance</a></li>
+					<li><a href="/about-us/ethics/">Ethics</a></li>
+					<li><a href="/about-us/diversity/">Diversity</a></li>
+					<li><a href="/about-us/community/">Community</a></li>
+				</ul>
+				<ul class="grid_2">
+					<li><a href="/facility-locator/"><strong>Facility Locator</strong></a></li>	
+					<li><a href="/jobs-at-wm/"><strong>Jobs at WM</strong></a></li>	
+					<li><a href="/jobs-at-wm/benefits/">Benefits</a></li>
+					<li><a href="/jobs-at-wm/current-openings/">Current Openings</a></li>
+					<li><a href="/investor-relations/"><strong>Investor Relations</strong></a></li>	
+					<li><a href="/press-room/"><strong>Press Room</strong></a></li>	
+					<li><a href="/suppliers/"><strong>Suppliers</strong></a></li>	
+					<li><a href="/privacy-policy/"><strong>Privacy Policy</strong></a></li>	
+				</ul>
+				<ul class="grid_2 omega">
+					<li><a href="/sustainability/"><strong>Sustainability</strong></a></li>	
+					<li><a href="/sustainability/think-green/">Think Green</a></li>
+					<li><a href="/sustainability/think-green-from-home/">Think Green from Home</a></li>	
+					<li><a href="/sustainability/greenopolis/">Greenopolis</a></li>	
+					<li><a href="/sustainability/social-networking/"><strong>Visit us on:</strong></a></li>	
+					<li><a href="http://facebook.com/WasteManagement" rel="external">Facebook</a></li>
+					<li><a href="http://twitter.com/wastemanagement" rel="external">Twitter</a></li>
+				</ul>
+			</div><!-- footer links -->
+			<div id="legal" class="grid_6 push_10 alpha">
+				<div id="blurb">
+					<h6>WM Fact</h6>
+					<p>Waste Management's renewable energy projects create enough energy to power over 1 million homes.</p>
+					<div class="more"><a href="#more">More WM Facts...</a></div>
+				</div>
+				<p id="copy">Copyright &copy; 2010. Waste Management, Inc. All Rights Reserved.</p>
+			</div>
+		</div><!-- .container -->
+	</div><!-- .f -->
+
+<!-- Behavior (jQuery et al.) -->
+<script src="_frameworks/jquery-1.4.2.min.js"></script>
+<script src="_js/global.js"></script>
+<script src="_js/jquery.lint.js"></script>
+
+</body>
+</html>
+

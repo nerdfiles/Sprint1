@@ -1,0 +1,36 @@
+/* 960.gs Grid
+ ****************************************************/
+
+.showgrid_12 {
+	background: #fff url(images/12_col.gif) center repeat-y;
+	margin-bottom: 20px; }
+
+.showgrid_16 { background: #fff url(images/16_col.gif) center repeat-y; }
+
+.showgrid_24 { background: #fff url(images/24_col.gif) center repeat-y; }
+
+/* Diagnostics
+ ****************************************************/
+
+div:empty, span:empty,
+li:empty, p:empty,
+td:empty, th:empty {padding: 0.5em; background: yellow;}
+
+*[style], font, center {outline: 5px solid red;}
+*[class=""], *[id=""] {outline: 5px dotted red;}
+
+img[alt=""] {border: 3px dotted red;}
+img:not([alt]) {border: 5px solid red;}
+img[title=""] {outline: 3px dotted fuchsia;}
+img:not([title]) {outline: 5px solid fuchsia;}
+
+table:not([summary]) {outline: 5px solid red;}
+table[summary=""] {outline: 3px dotted red;}
+th {border: 2px solid red;}
+th[scope="col"], th[scope="row"] {border: none;}
+
+a[href]:not([title]) {border: 5px solid red;}
+a[title=""] {outline: 3px dotted red;}
+a[href="#"] {background: lime;}
+a[href=""] {background: fuchsia;}
+

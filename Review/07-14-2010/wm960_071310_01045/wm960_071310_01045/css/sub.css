@@ -1,0 +1,16 @@
+
+/* SUB TEMPLATE CSS */
+	#content h2 { font-size:1.8em; font-weight:normal; margin:15px 0 20px; color:#555555;  }
+	#content h3 { margin:20px 0 5px; }
+	#content p, #content ul, #content h2, #content h1 { margin-right:80px; } 
+	#content p { margin-bottom:5px; }
+	#content ul { font-size:1.2em; color:#666; margin:0 0 15px 0; }
+	#content ul li { margin:0 0 8px 3px; padding:0 0 0 8px; background:url('../images/icons/icon_bullet_defaultsub.gif') top left no-repeat; }
+	#right_content { width:340px; float:right; border-left:20px solid #fff; border-bottom:20px solid #fff; }
+	#right_content img { display:block; }
+	#right_content ul { margin:0; }
+	#right_content ul li { font-size:.8em; }
+	#right_content .rightcontentpod { padding:15px; border-bottom:15px solid #fff; margin:0; background:none; }
+	#right_content .rightcontentpod a { padding:0 0 0 80px; }
+	#right_content .rightcontentpod a strong { margin:0 0 5px 0; color:#555555; }
+	#right_content .rightcontentpod a span { display:block; color:#063; font-weight:bold; margin:15px 0 0 0; }

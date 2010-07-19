@@ -1,0 +1,146 @@
+
+/* RESET */
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+	
+	
+/* GLOBAL HIDE */
+	#wm_logo span { display:none; }
+	
+
+/* GLOBAL TAG STYLES */	
+	body { text-align:center; font-size:65%; font-family:arial, sans-serif; }
+	a { color:#063; text-decoration:none; }
+	a:hover { text-decoration:underline; }
+	
+	
+/* GLOBAL DIV STYLES */	
+	#page { width:960px; text-align:left; margin:0 auto; position:relative; }
+	
+
+/* HEADER */
+	#logo { float:left; }
+	#logo #wm_logo { display:block; width:122px; height:74px; background:url('../images/global/wastemanagement_logo.gif') top left no-repeat; }
+	#header li { display:block; float:left; list-style:none; font-size:1.2em; }
+
+
+/* TOP NAVIGATION */	
+	#topnav { text-align:right; height:90px; }
+	#topnav ul { margin:14px 0 0; float:right; }
+	#topnav ul li { font-size:1.1em; border-right:1px solid #8b8b82; margin:0 11px 0 0; padding:0 11px 0 0; }
+	#topnav ul li a { color:#8b8b82; }
+	#topnav ul li a.on { font-weight:bold; }
+	#topnav ul li a:hover { text-decoration:underline; }
+
+	
+/* SITE SEARCH */
+	#search_top { position:relative; width:220px; height:28px; overflow:hidden;  }
+	#search_top { margin-left:0; height:38px; background:url('../images/backgrounds/bkg_search_top.gif') top left no-repeat; float:right; } 
+	#search_top fieldset#sitesearch { padding:8px 0 0 13px; }
+	#search_top label { position:absolute; top:13px; left:15px; font-size:1.1em; color:#60604b; }	
+	#search_top #input_sitesearch { width:170px; border:0; background:#fff; font-size:1.1em; color:#60604b; }
+	#search_top #submit_sitesearch { border:0; background:none; width:12px; height:20px; }
+	
+
+/* MAIN NAVIGATION */
+	#mainnav_modes { margin:11px 0 12px 10px; }
+	#mainnav_modes li a { display:block; margin:0 23px 0 19px;  }	
+	#mainnav { background:#006a3c url('../images/backgrounds/bkg_mainnav.gif') top left no-repeat; height:40px; width:720px; }
+	#mainnav li { height:40px; } 
+	#mainnav li.selected { background:#006a3c url('../images/backgrounds/bkg_mainnav_on.gif') top center no-repeat; }
+	#mainnav li#last { background:#7bb700 url('../images/backgrounds/bkg_mainnav_paybill.gif') top left no-repeat; width:120px; float:right; }
+	#mainnav li a { display:block; color:#ffffff; padding:13px 18px 14px 18px; margin:0 16px 0 0; }	
+	#mainnav li a.on { font-weight:bold; }
+		
+	
+/* CONTENT */
+	#content { padding-bottom:60px; }
+	#content h1 { font-size:3.0em; font-weight:normal; color:#555555; }
+	#content h1.hero { width:760px; height:160px; }
+	#content h1.hero span { display:none; }
+	#content h2 { font-size:1.8em; font-weight:normal; margin:0 0 20px; color:#555555;  }
+	#content h3 { font-size:1.3em; font-weight:bold; margin:20px 0 0; color:#555555; }
+	#content p { font-size:1.2em; margin:10px 0 15px; color:#666; }
+	#content p.calloutA { margin-bottom:20px; }
+	#content p .title { font-size:1.1em; display:block; }
+	#content p .subtitle { display:block; margin:2px 0 5px; }	
+
+
+/* BREADCRUMB */
+	#breadcrumb { font-size:1.1em; margin:23px 20px 20px 0; color:#666; }	
+	
+
+/* LEFT NAV */
+	#left_nav { padding:25px 0 0; }
+	#left_nav ul { border-bottom:1px solid #ccc; }
+	#left_nav ul li { border-top:1px solid #ccc; }
+	#left_nav ul li a { display:block; margin:10px 5px 10px 15px; font-size:1.2em; font-weight:bold; text-transform:uppercase; padding:0 25px 0 0; }
+	#left_nav ul li a.on { background:url('../images/icons/icon_leftnav_on.gif') right top no-repeat; color:#666; }
+	#left_nav ul li ul { border:none; }
+	#left_nav ul li ul li a { color:#00693c; text-transform:none; font-weight:normal; }
+	#left_nav ul li ul li ul { border:none; }
+	#left_nav ul li ul li ul li { border:none; }
+	#left_nav ul li ul li ul li a { margin:20px 5px 20px 30px; }
+	
+	
+/* RIGHT CONTENT */
+	#right_content { background:#ecebe1; color:#666; }
+	#right_content h4 { font-size:1.1em; color:#555555; font-weight:normal; }
+	#right_content .rightcontentpod { padding:20px 20px 20px 10px; margin-left:10px; font-size:1.1em; background:url('../images/backgrounds/bkg_rightcontent_pod.gif') bottom left no-repeat; }
+	#right_content .rightcontentpod a { display:block; color:#555555; padding-top:65px; }
+	#right_content .rightcontentpod a:hover { text-decoration:none; }
+	#right_content .rightcontentpod a strong { display:block; font-size:1.3em; color:#063; }
+	#right_content .related_links { padding:30px 30px 30px 20px; font-size:1.2em; }
+	#right_content .related_links h4 { font-size:1em; font-weight:bold; }
+	#right_content .related_links li { margin:0; padding:0; background:none; }
+	#right_content .related_links li a { display:block; margin:6px 0 0; }
+	#right_content .find_local_info { padding:30px 20px 30px 10px; margin-left:10px; font-size:1.2em; background:url('../images/backgrounds/bkg_rightcontent_pod.gif') bottom left no-repeat; }
+	#right_content .find_local_info p { font-size:1em; margin:10px 0 5px 0; }
+	#right_content .find_local_info ul { margin:5px 0 10px 0; }
+	#right_content .find_local_info ul li { margin:1px 0 1px 1px; padding:0 0 0 8px; background:url('../images/icons/icon_bullet_defaultrightcontent.gif') top left no-repeat; } 
+	#right_content .find_local_info fieldset#findlocalinfo { position:relative; display:block; width:179px; height:20px; background:url('../images/backgrounds/bkg_findlocalinfo.gif') left top no-repeat; }
+	#right_content .find_local_info label { position:absolute; top:3px; left:5px; color:#60604b; }	
+	#right_content .find_local_info #input_findlocalinfo { position:absolute; top:1px; left:4px; width:148px; border:0; background:none; color:#60604b; }
+	#right_content .find_local_info #submit_findlocalinfo { position:absolute; top:1px; right:0px; border:0; background:none; }
+
+
+/* PODS */
+	#content .pod_2colA h3 { background:#ecebe1; padding:10px; margin-top:30px;}
+	#content .pod_2colA p { float:left; width:260px; margin:10px 0 0; }
+	#content .pod_2colA p a { display:block; font-weight:bold; font-size:1.1em; margin:6px 35px 5px 10px; }
+	#content .pod_2colA p span { display:block; margin:0 10px }
+	#content .pod_2colB { width:260px; float:left; }
+	#content .pod_2colB h3 { padding-right:30px; }
+	#content .pod_2colB p { margin:3px 0 0; padding-right:30px; }
+	#content .pod_2colB_list { font-size:1.2em; margin:0 10px 0 5px; padding-right:30px; }
+	#content .pod_2colB_list a { display:block; margin-top:10px; }
+	#content .pod_2colB_list ul { margin-bottom:15px; }
+	#content .pod_2colB_list ul li { background:url('../images/icons/icon_bullet_default2colpod.gif') top left no-repeat; padding-left:7px; margin:1px 0; }
+	#content .pod_2colB_list ul li a { margin-top:0; }
+	
+	
+/* GLOSSARY */	
+	#content .glossary_item { border-bottom:1px solid #ebe8d8; padding:10px 0 18px 0; }
+	#content .glossary_item span { display:block; color:#555555; font-size:1.2em; float:left; width:140px; padding:0 10px 0 0; margin:0; }
+	#content .glossary_item p { display:block; float:left; width:530px; margin:0; padding:0; }
+	
+	
+	
+/* FOOTER */
+	#footer { background:#575850; text-align:left; }
+	#footer_content { background:#575850 url('../images/backgrounds/bkg_footer.gif') top left no-repeat; color:#ffffff; padding:0 0 30px 0; font-size:1.2em; }
+	#footer a { color:#c6c6bc; }	
+	#footer a strong { color:#fff; }
+	#footer .ftr_sub li a { display:block; margin:0 0 13px; }
+	#footer .ftr_sub li a strong { display:block; margin:29px 0 0; }
+	#footer .ftr_callout_title { display:block; border-bottom:1px solid #71726c; margin:23px 38px 15px 22px; padding:0 0 10px 0; text-transform:uppercase; }
+	#footer .ftr_callout ul { width:127px; float:left; }
+	#footer .ftr_callout ul li a { display:block; margin:0 8px 15px 22px; }
+	#footer .ftr_callout_actionlink { display:block; margin:0 38px 0 15px; border-top:1px solid #71726c; padding:10px 0 0 0;  }
+	
+	
+/* GLOBAL CLASS STYLES */
+	.clear { clear:both; }
+	
+	
+	
+		
